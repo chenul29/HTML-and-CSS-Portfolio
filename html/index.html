@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/1c65470271.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                  <img src="../img/logooriginal.jpg" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Graphic Designer | Undergraduate</p>
+                <h1>Hi, I am <span>Chenul</span> Dinupa<br> from Sri Lanka</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="../img/user.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">AboutMe</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur 
+                        adipisicing elit. 
+                        Rerum aliquid neque, aspernatur,
+                         natus deserunt laudantium
+                         id totam sit earum blanditiis dolore,
+                         consectetur dignissimos quisquam voluptatem
+                         ipsam magni ex excepturi reiciendis?</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('expirences')" >Expirences</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <Ul>
+                                <li><span>UX/UI</span><br>Designing Web Pages/Mobile App</li>
+                                <li><span>Graphic Designer</span><br>Designing Socail Media Post</li>
+                                <li><span>Mobile App Devoloper</span><br>Devoloping Mobile Apps</li>
+                            </Ul>
+                         </div>
+
+                         <div class="tab-contents" id="expirences">
+                            <Ul>
+                                <li><span>Freelancer 2019 - 2021</span><br>Fivver Platform</li>
+                                <li><span>Graphic Designer 2022 - Present</span><br>Designing Web Pages/Mobile App</li>
+                                <li><span>Web Designer 2023 - Present</span><br>Designing Web Pages/Mobile App</li>
+                            </Ul>
+                         </div>
+
+                         <div class="tab-contents" id="education">
+                            <Ul>
+                                <li><span>2011 - 2017</span><br>Vijaya College Matale (Primary School)</li>
+                                <li><span>2017 - 2024</span><br>St. Thomas College Matale</li>
+                                <li><span>2023 - Present</span><br>Undergraduate in Information Technology</li>
+                            </Ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---Service section-->
+
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title service">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>As a web developer using a CMS (Content Management System), I specialize in creating and customizing websites using platforms like WordPress. I utilize programming languages such as HTML, CSS, and JavaScript, along with frameworks</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-image"></i>
+                <h2>Graphic Designing</h2>
+                <p>As a graphic designer, I specialize in visually communicating messages through various mediums such as print, digital, and multimedia. With a keen eye for aesthetics and a mastery of design software.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Mobile App Devolopment</h2>
+                <p>As an Android Studio mobile app beginner developer, you'll primarily work with Java to create applications for Android devices. Android Studio provides a comprehensive development environment with tools for coding user-friendly mobile experiences.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----Portfolio section--->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title service">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/img/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Introducing our fun-filled app designed for small kids to learn math effortlessly! With colorful graphics and simple interface, it offers engaging math questions tailored for young minds. Let your child explore basic arithmetic in an enjoyable way! Available now for endless learning adventures.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/img/work-2.png" alt="">
+                <div class="layer">
+                <h3>Social Media Post Design</h3>
+                <p>Crafted with creativity and care, this social media post is a visual delight. Designed using Photoshop, it captures attention with vibrant colors and captivating graphics. Engage your audience and leave a lasting impression with this eye-catching creation.</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/img/work-3.png" alt="">
+                <div class="layer">
+                <h3>E-Commerce App</h3>
+                <p>Introducing our innovative e-commerce app! Seamlessly shop for your favorite products anytime, anywhere. With a user-friendly interface and secure transactions, discover convenience at your fingertips. Explore an extensive range of items and experience shopping like never before.</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------contact-------->
+<div id="content">
+    <div class="container">
+        <div class="row">
+        <div class="content-left">
+            <h1 class="sub-title contactme">Contact me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>chenul@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>0741863226</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="img\back 2.jpg" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="content-right">
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright@ Chenul. Made with Youtube <i class="fa-brands fa-youtube"></i> Tutorial by GreatStacts</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname){
+            for  (var i = 0; i < tablinks.length; i++){
+                tablinks[i].classList.remove("active-link");
+            }
+            for  (var i = 0; i < tabcontents.length; i++){
+                tabcontents[i].classList.remove("active-tab");
+            }
+            document.querySelector("#" + tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+        }
+    </script>
+    
+</body>
+</html>
